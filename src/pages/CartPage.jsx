@@ -32,7 +32,7 @@ const CartPage = () => {
               <div className="flex items-center gap-4">
                 <img src={item.image} alt={item.name} className="w-20 h-20 object-cover" />
                 <div>
-                  <h3 className="font-semibold">{item.name}</h3>
+                  <h3 className="font-semibold">{item.title}</h3>
                   <div className="flex items-center mt-2">
                     <button
                       onClick={() => dispatch(decreaseQuantity(item.id))}
