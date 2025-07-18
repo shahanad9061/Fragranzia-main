@@ -97,7 +97,7 @@ const CartPage = () => {
             <span>Rs {totalPrice}</span>
           </div>
           <button className="w-full mt-4 bg-blue-900 text-white py-2 rounded">
-            <Link to="/CheckOut" className="hover:text-blue-900">Proceed To Buy</Link>
+            <Link to="/CheckOutPage" className="hover:text-blue-900">Proceed To Buy</Link>
           </button>
           <p className="text-sm text-center mt-2 text-gray-500">
             Safe and Secure Payments. Easy returns. 100% Authentic products.
